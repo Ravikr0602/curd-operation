@@ -1,4 +1,11 @@
+CURD Operations:-
+
+1. CRUD operations are basic data manipulation for database. 
+2. MySQL database to perform CRUD (create, read, update, and delete) operations with PHP.
+
+Follow the step :-
+
 Step 1: Create a database in PhpMysql whose name is home.
 Step 2: Create a table in home database whose name is notes. 
         
-    CREATE TABLE `home`.`notes` ( `sno` INT(11) NOT NULL AUTO_INCREMENT ,  `title` VARCHAR(50) NOT NULL ,  `description` TEXT NOT NULL , `tstamp` DATETIME NOT NULL     DEFAULT CURRENT_TIMESTAMP , PRIMARY KEY  (`sno`));
+    CREATE TABLE `home`.`notes` ( `sno` INT(11) NOT NULL AUTO_INCREMENT ,  `title` VARCHAR(50) NOT NULL ,  `description` TEXT NOT NULL , `tstamp` DATETIME NOT NULL     DEFAULT     CURRENT_TIMESTAMP , PRIMARY KEY  (`sno`));
